@@ -4,7 +4,7 @@ import random
 import sqlite3
 import pandas
 
-bot = telebot.TeleBot('7779383986:AAHc4ZKIk3vMpK15jwD2N4JfeUivZp3S1yY')
+bot = telebot.TeleBot('токен')
 
 
 @bot.message_handler(commands=['start'])
