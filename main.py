@@ -4,7 +4,7 @@ import random
 import sqlite3
 import pandas
 
-bot = telebot.TeleBot('токен')
+bot = telebot.TeleBot('token')
 
 
 @bot.message_handler(commands=['start'])
@@ -22,16 +22,18 @@ def start_message(message):
 
 
 @bot.message_handler(func=lambda call: True)
-def add_book(call):
-    if call.data == "add_book":
-        ...
-
 def search_book(call):
     if call.data == "search_book":
         ...
 
+def add_book(call):
+    if call.data == "add_book":
+        ...
+
 def telegram_channel(call):
     if call.data == "telegram_channel":
-        bot.send_message(bot.chat.id, "")
+        bot.send_message(message.chat.id,
+                         "<b><a href='t.me/+CqXQeFrb11EyZjQy'>Telegram-канал</a></b>",
+                         parse_mode="HTML")
 
 bot.infinity_polling()
