@@ -3,7 +3,7 @@ from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 import random
 import json
 
-bot = telebot.TeleBot('token')
+bot = telebot.TeleBot('7779383986:AAFRgqsNHLLcC3N1MU8EHhNEJ3XAZ055jBg')
 
 with open('books.json', encoding='utf-8') as file:
     books = json.load(file)
@@ -22,8 +22,9 @@ def start_message(message):
         text="Telegram-channel of Developer",
         callback_data="telegram_channel"
     ))
-    bot.send_message(message.chat.id, "Hi, this is an app for searching for books at your discretion.",
-                     reply_markup=markup)
+    bot.send_message(message.chat.id,
+                     "*👋 Hi, this is an app for searching for books at your discretion.*\n /start - to start bot\n /info - information of the bot",
+                     reply_markup=markup, parse_mode="Markdown")
 
 
 @bot.callback_query_handler(func=lambda call: True)
@@ -32,9 +33,9 @@ def callback_handler(call):
         send_random_book(call.message)
     elif call.data == "further":
         send_random_book(call.message)
-    elif call.data == "add_book":
-        add_book(call)
-        send_random_book(call.message)
+    elif call.data.startswith("add_book_"):
+        book_id = call.data.split("_", 2)[-1]
+        add_book(call, book_id)
     elif call.data == "telegram_channel":
         telegram_channel(call)
 
@@ -50,7 +51,7 @@ def send_random_book(message):
     markup = InlineKeyboardMarkup()
     markup.add(InlineKeyboardButton(
         text="Add book",
-        callback_data="add_book"
+        callback_data=f"add_book_{ran_index}"
     ))
     markup.add(InlineKeyboardButton(
         text="Further",
@@ -60,13 +61,25 @@ def send_random_book(message):
         text="Stop Search",
         callback_data="stop"
     ))
-    bot.send_message(message.chat.id, f"Name: {name}\nAuthor: {author}\nYear: {year}\nGenre: {genre}",
-                     reply_markup=markup)
+    bot.send_message(message.chat.id,
+                     f"*📚 New Book for you:*\n* - Name:* {name}\n* - Author:* {author}\n* - Year:* {year}\n* - Genre:* {genre}",
+                     reply_markup=markup, parse_mode="Markdown")
 
 
-def add_book(call):
+def add_book(call, book_id):
+    book_info = books["books"][book_id]
+
+    user_id = call.from_user.id
+
+    if str(user_id) not in users:
+        users[str(user_id)] = []
+
+    users[str(user_id)].append(book_info)
+
+    with open('users.json', 'w', encoding='utf-8') as file:
+        json.dump(users, file, ensure_ascii=False, indent=4)
+
     bot.answer_callback_query(call.id, "Book added to your list!")
-    ...
 
 
 def telegram_channel(call):
