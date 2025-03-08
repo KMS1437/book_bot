@@ -13,6 +13,62 @@
       "author": "Fyodor Dostoevsky",
       "year": "1866",
       "genre": "novel"
+    },
+    "3": {
+      "index": 3,
+      "name": "Demons",
+      "author": "Fyodor Dostoevsky",
+      "year": "1872",
+      "genre": "novel"
+    },
+    "4": {
+      "index": 4,
+      "name": "The Idiot",
+      "author": "Fyodor Dostoevsky",
+      "year": "1868",
+      "genre": "novel"
+    },
+    "5": {
+      "index": 5,
+      "name": "Oblomov",
+      "author": "Ivan Goncharov",
+      "year": "1859",
+      "genre": "novel"
+    },
+    "6": {
+      "index": 6,
+      "name": "Poor Folk",
+      "author": "Fyodor Dostoevsky",
+      "year": "1846",
+      "genre": "novel"
+    },
+    "7": {
+      "index": 7,
+      "name": "Dead Souls",
+      "author": "Nikolai Gogol",
+      "year": "1842",
+      "genre": "poem"
+    },
+    "8": {
+      "index": 8,
+      "name": "The Brothers Karamazov",
+      "author": "Fyodor Dostoevsky",
+      "year": "1880",
+      "genre": "novel"
+    },
+    "9": {
+      "index": 9,
+      "name": "A Hero of Our Time",
+      "author": "Mikhail Lermontov",
+      "year": "1840",
+      "genre": "novel"
+    },
+    "10": {
+      "index": 10,
+      "name": "Fathers and Sons",
+      "author": "Ivan Turgenev",
+      "year": "1862",
+      "genre": "novel"
     }
   }
 }
