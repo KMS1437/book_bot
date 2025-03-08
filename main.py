@@ -5,9 +5,9 @@ import json
 
 bot = telebot.TeleBot('token')
 
-with open('books.json') as file:
+with open('books.json', encoding='utf-8') as file:
     books = json.load(file)
-with open('users.json') as file:
+with open('users.json', encoding='utf-8') as file:
     users = json.load(file)
 
 
