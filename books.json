@@ -1,0 +1,18 @@
+{
+  "books": {
+    "1": {
+      "index": 1,
+      "name": "1984",
+      "author": "George Orwell",
+      "year": "1948",
+      "genre": "dystopian novel"
+    },
+    "2": {
+      "index": 2,
+      "name": "Crime and Punishment",
+      "author": "Fyodor Dostoevsky",
+      "year": "1866",
+      "genre": "novel"
+    }
+  }
+}
