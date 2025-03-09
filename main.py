@@ -3,7 +3,7 @@ from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 import random
 import json
 
-bot = telebot.TeleBot('7779383986:AAFRgqsNHLLcC3N1MU8EHhNEJ3XAZ055jBg')
+bot = telebot.TeleBot('token')
 
 with open('books.json', encoding='utf-8') as file:
     books = json.load(file)
