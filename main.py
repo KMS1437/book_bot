@@ -27,6 +27,13 @@ def start_message(message):
                      reply_markup=markup, parse_mode="Markdown")
 
 
+@bot.message_handler(commands=['info'])
+def info(message):
+    bot.send_message(message.chat.id,
+                     f"""*Creator:* @mkkamozin\n*Date of first creation:* 6 march 2025\n*Project Description: * The project was created with the support of the educational institution "Kemerovo Talent Center". This bot will help find a book in the user's favorite genres.""",
+                     parse_mode="Markdown")
+
+
 @bot.callback_query_handler(func=lambda call: True)
 def callback_handler(call):
     if call.data == "search_book":
@@ -38,10 +45,12 @@ def callback_handler(call):
         add_book(call, book_id)
     elif call.data == "telegram_channel":
         telegram_channel(call)
+    elif call.data == "profile":
+        profile(call)
 
 
 def send_random_book(message):
-    ran_index = str(random.randint(1, len(books["books"])))
+    ran_index = random.choice(list(books["books"].keys()))
     book_info = books["books"][ran_index]
     name = book_info['name']
     author = book_info['author']
@@ -58,8 +67,8 @@ def send_random_book(message):
         callback_data="further"
     ))
     markup.add(InlineKeyboardButton(
-        text="Stop Search",
-        callback_data="stop"
+        text="My Profile",
+        callback_data="profile"
     ))
     bot.send_message(message.chat.id,
                      f"*📚 New Book for you:*\n* - Name:* {name}\n* - Author:* {author}\n* - Year:* {year}\n* - Genre:* {genre}",
@@ -86,6 +95,20 @@ def telegram_channel(call):
     bot.send_message(call.message.chat.id,
                      "<b><a href='t.me/+CqXQeFrb11EyZjQy'>Telegram</a></b>",
                      parse_mode="HTML")
+
+
+def profile(call):
+    user_id = str(call.from_user.id)
+    user_name = f"{call.from_user.first_name} {call.from_user.last_name}"
+    message_text = f"*👤 Your Profile:*\n* - User name:* {user_name}\n* - Favorite books:*\n"
+
+    if user_id in users and users[user_id]:
+        books_list = "\n".join([f"📖 {book['name']} by {book['author']} ({book['year']}). Genre is {book['genre']}" for book in users[user_id]])
+        message_text += books_list
+    else:
+        message_text += "You have no favorite books yet."
+
+    bot.send_message(call.message.chat.id, message_text, parse_mode="Markdown")
 
 
 bot.infinity_polling()
