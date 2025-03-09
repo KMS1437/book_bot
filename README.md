@@ -8,7 +8,6 @@ Book Bot is a Telegram bot designed to help users discover books based on their 
 
 ## Features
 
-- **Genre-based Book Recommendations:** Users can select a genre and browse through a curated list of books.
 - **Swipeable Feed:** The bot presents books in a feed format, making it easy to browse through multiple titles.
 - **Simple Interface:** Easy-to-use commands and interactions within Telegram.
 
@@ -41,6 +40,7 @@ You can find and interact with the bot on Telegram using the following tag:
 ## Future Plans
 
 - **Add Book Descriptions and Cover Images:** Enhance the database to include detailed descriptions and cover images for each book.
+- **Add a genre selection feature:** Users choose their tastes and books are found only at their sight
 
 ---
 
