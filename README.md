@@ -44,5 +44,5 @@ You can find and interact with the bot on Telegram using the following tag:
 
 ---
 
-**Current Version:** 0.4
-**Last Updated:** March 9, 2025
+**Current Version:** 0.5
+**Last Updated:** March 19, 2025
