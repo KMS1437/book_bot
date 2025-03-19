@@ -3,7 +3,7 @@ from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 import random
 import json
 
-bot = telebot.TeleBot('token')
+bot = telebot.TeleBot('7779383986:AAEy33l-EYMHKq3xIJW8SowRxFrkXGVl5_A')
 
 with open('books.json', encoding='utf-8') as file:
     books = json.load(file)
@@ -56,6 +56,8 @@ def send_random_book(message):
     author = book_info['author']
     year = book_info['year']
     genre = book_info['genre']
+    photo = book_info['photo']
+    summary = book_info['summary']
 
     markup = InlineKeyboardMarkup()
     markup.add(InlineKeyboardButton(
@@ -70,9 +72,12 @@ def send_random_book(message):
         text="My Profile",
         callback_data="profile"
     ))
-    bot.send_message(message.chat.id,
-                     f"*📚 New Book for you:*\n* - Name:* {name}\n* - Author:* {author}\n* - Year:* {year}\n* - Genre:* {genre}",
-                     reply_markup=markup, parse_mode="Markdown")
+    bot.send_photo(
+        chat_id=message.chat.id,
+        photo=photo,
+        caption=f"*📚 New Book for you:*\n* - Name:* {name}\n* - Author:* {author}\n* - Year:* {year}\n* - Genre:* {genre}\n\n*Description:* {summary}",
+        reply_markup=markup, parse_mode='Markdown'
+    )
 
 
 def add_book(call, book_id):
@@ -103,7 +108,9 @@ def profile(call):
     message_text = f"*👤 Your Profile:*\n* - User name:* {user_name}\n* - Favorite books:*\n"
 
     if user_id in users and users[user_id]:
-        books_list = "\n".join([f"📖 {book['name']} by {book['author']} ({book['year']}). Genre is {book['genre']}" for book in users[user_id]])
+        books_list = "\n".join(
+            [f"📖 {book['name']} by {book['author']} ({book['year']}). Genre is {book['genre']}" for book in
+             users[user_id]])
         message_text += books_list
     else:
         message_text += "You have no favorite books yet."
