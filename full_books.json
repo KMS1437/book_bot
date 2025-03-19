@@ -1,0 +1,832 @@
+{
+  "books": {
+    "1": {
+      "index": 1,
+      "name": "1984",
+      "author": "George Orwell",
+      "year": "1948",
+      "genre": "dystopian novel",
+      "photo": "https://steamuserimages-a.akamaihd.net/ugc/43100917013436984/785F51FFFC42AB478B30E62A879DE5C0D25EAC6A/?imw=512&amp;&amp;ima=fit&amp;impolicy=Letterbox&amp;imcolor=%23000000&amp;letterbox=false",
+      "summary": "In a totalitarian society, Winston Smith rebels against the oppressive regime by falling in love and seeking truth. The Party's surveillance is omnipresent, and freedom is a distant memory. This chilling tale explores themes of control, identity, and resistance."
+    },
+    "2": {
+      "index": 2,
+      "name": "Crime and Punishment",
+      "author": "Fyodor Dostoevsky",
+      "year": "1866",
+      "genre": "novel",
+      "photo": "https://i.pinimg.com/originals/6c/ea/e1/6ceae1b27cddd39fe7f83edabcad10ff.jpg",
+      "summary": "Raskolnikov, a poor ex-student, commits a brutal murder, believing he is above the law. As guilt consumes him, he grapples with morality and redemption. This psychological masterpiece delves into the human soul's darkest corners."
+    },
+    "3": {
+      "index": 3,
+      "name": "Demons",
+      "author": "Fyodor Dostoevsky",
+      "year": "1872",
+      "genre": "novel",
+      "photo": "https://avatars.mds.yandex.net/i?id=3f7cd334bb2d6503af61d9e60e741961_l-6961938-images-thumbs&n=13",
+      "summary": "A group of radicals in a small Russian town plans to overthrow the social order. Chaos ensues as their ideologies clash with reality. Dostoevsky's gripping narrative explores nihilism, morality, and the consequences of extremism."
+    },
+    "4": {
+      "index": 4,
+      "name": "The Idiot",
+      "author": "Fyodor Dostoevsky",
+      "year": "1868",
+      "genre": "novel",
+      "photo": "https://static10.labirint.ru/books/892924/cover.jpg",
+      "summary": "Prince Myshkin, a kind and naive man, returns to Russia after treatment for epilepsy. His innocence clashes with the corrupt society around him. This tragic tale examines purity, love, and the complexities of human nature."
+    },
+    "5": {
+      "index": 5,
+      "name": "Oblomov",
+      "author": "Ivan Goncharov",
+      "year": "1859",
+      "genre": "novel",
+      "photo": "https://sun9-43.userapi.com/impg/AIQwtBZeFUnfOL6DmaGJYsraE0-0nuiP6nPxdA/UByFFAJdbm8.jpg?size=421x604&quality=95&sign=e66c6827eead9baae94f67203039f208&c_uniq_tag=2cu_7E6KjbSY0QFGQ72-acYxQIDDzXz0PhX44Oh1jxE&type=album",
+      "summary": "Oblomov, a lazy and apathetic nobleman, struggles to find purpose in life. His inertia contrasts with the ambitions of those around him. This classic explores themes of existentialism, societal expectations, and the human condition."
+    },
+    "6": {
+      "index": 6,
+      "name": "Poor Folk",
+      "author": "Fyodor Dostoevsky",
+      "year": "1846",
+      "genre": "novel",
+      "photo": "https://i.pinimg.com/originals/26/2f/3b/262f3b7e62db6ac3bfba3088953ea7d7.png",
+      "summary": "Through a series of letters, two impoverished individuals share their struggles and dreams. Their bond is tested by poverty and societal pressures. Dostoevsky's debut novel is a poignant exploration of love and despair."
+    },
+    "7": {
+      "index": 7,
+      "name": "Dead Souls",
+      "author": "Nikolai Gogol",
+      "year": "1842",
+      "genre": "poem",
+      "photo": "https://cdn1.ozone.ru/s3/multimedia-n/c600/6066283763.jpg",
+      "summary": "Chichikov, a cunning businessman, schemes to buy 'dead souls'—deceased serfs—to exploit a legal loophole. His journey reveals the absurdities of Russian society. Gogol's satirical masterpiece critiques corruption and human folly."
+    },
+    "8": {
+      "index": 8,
+      "name": "The Brothers Karamazov",
+      "author": "Fyodor Dostoevsky",
+      "year": "1880",
+      "genre": "novel",
+      "photo": "https://i01.fotocdn.net/s204/62979fcc83b7ac4d/public_pin_l/2285282912.jpg",
+      "summary": "Three brothers grapple with their father's murder, each representing different aspects of humanity. Their struggles with faith, morality, and free will are deeply philosophical. This epic novel is a profound exploration of existence."
+    },
+    "9": {
+      "index": 9,
+      "name": "A Hero of Our Time",
+      "author": "Mikhail Lermontov",
+      "year": "1840",
+      "genre": "novel",
+      "photo": "https://cdn1.ozone.ru/s3/multimedia-1-l/7146396345.jpg",
+      "summary": "Pechorin, a cynical and disillusioned officer, navigates love, betrayal, and adventure in the Caucasus. His actions reveal the emptiness of his soul. Lermontov's novel is a timeless critique of Romantic ideals."
+    },
+    "10": {
+      "index": 10,
+      "name": "Fathers and Sons",
+      "author": "Ivan Turgenev",
+      "year": "1862",
+      "genre": "novel",
+      "photo": "https://static10.labirint.ru/books/604745/cover.jpg",
+      "summary": "The generational clash between traditionalists and nihilists is at the heart of this novel. Bazarov, a young radical, challenges societal norms, leading to personal and ideological conflicts. Turgenev's work remains a cornerstone of Russian literature."
+    },
+    "11": {
+      "index": 11,
+      "name": "War and Peace",
+      "author": "Leo Tolstoy",
+      "year": "1869",
+      "genre": "historical novel",
+      "photo": "https://m.media-amazon.com/images/I/81oHM-dzefL._AC_UL960_QL65_.jpg",
+      "summary": "Set during Napoleon's invasion of Russia, this epic intertwines the lives of aristocrats and soldiers. Love, war, and destiny are explored on a grand scale. Tolstoy's masterpiece is a profound meditation on history and humanity."
+    },
+    "12": {
+      "index": 12,
+      "name": "Ulysses",
+      "author": "James Joyce",
+      "year": "1922",
+      "genre": "modernist novel",
+      "photo": "https://sun9-2.userapi.com/impf/EBW9x5qAVtjBg8iV40UdFmXabQPLb95aB_dirQ/CGdsSP2BlvQ.jpg?quality=95&as=32x42,48x62,72x94,108x140,160x208,240x312,360x468,480x624,540x702,634x824&sign=e7f7ab2f0c8a7408d4ff4a3561345571&from=bu&u=pu6m4fFGk4H0PVDEMYTUz3rsCJGR4OCprFeF8sJUHVM&cs=634x824",
+      "summary": "Leopold Bloom's day in Dublin is chronicled with intricate detail and stream-of-consciousness narration. The novel parallels Homer's Odyssey, blending the mundane with the profound. Joyce's work is a landmark of modernist literature."
+    },
+    "13": {
+      "index": 13,
+      "name": "Lolita",
+      "author": "Vladimir Nabokov",
+      "year": "1955",
+      "genre": "novel",
+      "photo": "https://sun9-4.userapi.com/impg/w7r3D3Myrigauj1KUu6iF28m9jdH9mfmYOCNmg/u0leEqXwIkY.jpg?size=532x807&quality=95&sign=9c6b614ef56a88acc6ebfb1c5206e5b2&c_uniq_tag=9o1ojzeQnmJSxjACh-MI9yHmt1vP_mpDBA2QccClW28&type=album",
+      "summary": "Humbert Humbert, a middle-aged man, becomes obsessed with a young girl named Dolores Haze. Their twisted relationship is both disturbing and captivating. Nabokov's controversial novel explores obsession, morality, and the power of language."
+    },
+    "14": {
+      "index": 14,
+      "name": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "year": "1925",
+      "genre": "tragedy",
+      "photo": "https://static10.labirint.ru/books/966431/cover.jpg",
+      "summary": "Jay Gatsby's lavish parties mask his longing for the elusive Daisy Buchanan. Set in the Roaring Twenties, this novel explores the American Dream's illusions. Fitzgerald's prose is both lyrical and haunting."
+    },
+    "15": {
+      "index": 15,
+      "name": "The Master and Margarita",
+      "author": "Mikhail Bulgakov",
+      "year": "1967",
+      "genre": "novel",
+      "photo": "https://avatars.mds.yandex.net/get-mpic/4547325/img_id3694032020811801234.jpeg/9hq",
+      "summary": "The Devil visits Soviet Moscow, causing chaos and exposing human hypocrisy. Parallelly, the story of Pontius Pilate unfolds. Bulgakov's surreal masterpiece blends satire, fantasy, and philosophical depth."
+    },
+    "16": {
+      "index": 16,
+      "name": "Anna Karenina",
+      "author": "Leo Tolstoy",
+      "year": "1877",
+      "genre": "realist novel",
+      "photo": "https://sun9-16.userapi.com/impg/SR4wcZhe_IfSTbgCWbje7Ht6lTs5WGJZ2tGXsw/eZbMpzfeeGw.jpg?size=319x480&quality=96&sign=1c162c6d2be5e3d6f8e8e3d99d9b094e&type=album",
+      "summary": "Anna's affair with Count Vronsky leads to her social downfall, while Levin seeks meaning in rural life. Tolstoy contrasts personal passion with societal constraints. This novel is a profound exploration of love, morality, and happiness."
+    },
+    "17": {
+      "index": 17,
+      "name": "Harry Potter and the Philosopher's Stone",
+      "author": "J.K. Rowling",
+      "year": "1997",
+      "genre": "fantasy",
+      "photo": "https://cdn1.ozone.ru/s3/multimedia-w/6895232672.jpg",
+      "summary": "Harry Potter discovers he is a wizard and begins his journey at Hogwarts School of Witchcraft and Wizardry. Alongside friends Ron and Hermione, he uncovers the truth about his past. This magical tale is the start of an unforgettable adventure."
+    },
+    "18": {
+      "index": 18,
+      "name": "The Lord of the Rings",
+      "author": "J.R.R. Tolkien",
+      "year": "1954",
+      "genre": "fantasy",
+      "photo": "https://i.pinimg.com/736x/f4/03/9a/f4039a5f52929f26f5a76cfbefd5f735.jpg",
+      "summary": "Frodo Baggins embarks on a perilous quest to destroy the One Ring and save Middle-earth. Accompanied by a diverse fellowship, he faces dark forces and moral dilemmas. Tolkien's epic is a timeless tale of courage and friendship."
+    },
+    "19": {
+      "index": 19,
+      "name": "The Little Prince",
+      "author": "Antoine de Saint-Exupéry",
+      "year": "1943",
+      "genre": "novella",
+      "photo": "https://cdn.kobo.com/book-images/64c221e0-0a61-46c4-9129-402c2b795313/1200/1200/False/the-little-prince-26.jpg",
+      "summary": "A young prince travels from planet to planet, learning about life, love, and human nature. His encounters with various characters reveal profound truths. This poetic novella is a timeless meditation on innocence and imagination."
+    },
+    "20": {
+      "index": 20,
+      "name": "Three Comrades",
+      "author": "Erich Maria Remarque",
+      "year": "1936",
+      "genre": "novel",
+      "photo": "https://sun9-70.userapi.com/impg/sjoXoRHeiMTlIB367w5kbCgUPqRd_pAMaKXXpA/YPBxAR6e_K4.jpg?size=364x604&quality=95&sign=fe2c8cdb4607d9f00982362fa13ec990&c_uniq_tag=QxG9oEbWsvptsdjHtVRJH3SD5_T0ibrBprX9izeBIvU&type=album",
+      "summary": "Three friends navigate love, loss, and survival in post-World War I Germany. Their bond is tested by economic hardship and personal tragedies. Remarque's novel is a poignant exploration of friendship and resilience."
+    },
+    "21": {
+      "index": 21,
+      "name": "And Quiet Flows the Don",
+      "author": "Mikhail Sholokhov",
+      "year": "1928",
+      "genre": "novel",
+      "photo": "https://static10.labirint.ru/books/972905/cover.jpg",
+      "summary": "Set during the Russian Revolution, this epic follows the Cossack Grigory Melekhov as he struggles with love, war, and identity. His journey reflects the turmoil of a nation in transition. Sholokhov's novel is a sweeping portrayal of history and humanity."
+    },
+    "22": {
+      "index": 22,
+      "name": "One Hundred Years of Solitude",
+      "author": "Gabriel García Márquez",
+      "year": "1967",
+      "genre": "magic realism",
+      "photo": "https://i.pinimg.com/originals/39/57/6d/39576d6e1e54cf52eaa0a352b5287ae9.jpg",
+      "summary": "The Buendía family's saga spans generations in the fictional town of Macondo. Blending reality with fantasy, the novel explores love, power, and destiny. Márquez's masterpiece is a cornerstone of magical realism."
+    },
+    "23": {
+      "index": 23,
+      "name": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "year": "1951",
+      "genre": "realist fiction",
+      "photo": "https://i.pinimg.com/474x/59/7f/b4/597fb48556f2d63ae86cb49197d0b477.jpg?nii=t",
+      "summary": "Holden Caulfield, a disenchanted teenager, wanders New York City after being expelled from school. His cynical observations reveal a deep longing for authenticity. Salinger's novel is a defining work of adolescent angst."
+    },
+    "24": {
+      "index": 24,
+      "name": "Atlas Shrugged",
+      "author": "Ayn Rand",
+      "year": "1957",
+      "genre": "philosophical fiction",
+      "photo": "https://cdn1.ozone.ru/s3/multimedia-1-f/7058780475.jpg",
+      "summary": "In a dystopian world, industrialists and innovators go on strike to protest government control. Dagny Taggart fights to keep her railroad company alive. Rand's novel is a passionate defense of individualism and capitalism."
+    },
+    "25": {
+      "index": 25,
+      "name": "Alice in Wonderland",
+      "author": "Lewis Carroll",
+      "year": "1865",
+      "genre": "fantasy",
+      "photo": "https://i.pinimg.com/736x/44/f6/d5/44f6d51830ed60ba166d7c2c03d4bf51.jpg",
+      "summary": "Alice falls down a rabbit hole into a whimsical world filled with peculiar characters. Her adventures challenge logic and reality. Carroll's classic is a delightful exploration of imagination and nonsense."
+    },
+    "26": {
+      "index": 26,
+      "name": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "year": "1813",
+      "genre": "romance",
+      "photo": "https://i.pinimg.com/736x/14/d8/ea/14d8ea37846191d498ed5200bb560524.jpg"
+    },
+    "27": {
+      "index": 27,
+      "name": "The Girl Who Played with Fire",
+      "author": "Stieg Larsson",
+      "year": "2006",
+      "genre": "mystery",
+      "photo": "https://xl.movieposterdb.com/11_04/2009/1216487/xl_1216487_2b6db002.jpg"
+    },
+    "28": {
+      "index": 28,
+      "name": "Shantaram",
+      "author": "Gregory David Roberts",
+      "year": "2003",
+      "genre": "novel",
+      "photo": "https://cdn1.ozone.ru/s3/multimedia-q/6879196754.jpg"
+    },
+    "29": {
+      "index": 29,
+      "name": "Fahrenheit 451",
+      "author": "Ray Bradbury",
+      "year": "1953",
+      "genre": "dystopian",
+      "photo": "https://i.pinimg.com/originals/8c/09/d9/8c09d9fcb63e9bee8b462ffe27d7de18.png"
+    },
+    "30": {
+      "index": 30,
+      "name": "The Book Thief",
+      "author": "Markus Zusak",
+      "year": "2005",
+      "genre": "historical novel",
+      "photo": "https://i.pinimg.com/736x/c0/09/bf/c009bf97ad54bf84ddff7c8cb678ae3c.jpg"
+    },
+    "31": {
+      "index": 31,
+      "name": "Flowers for Algernon",
+      "author": "Daniel Keyes",
+      "year": "1966",
+      "genre": "science fiction",
+      "photo": "https://main-cdn.sbermegamarket.ru/big2/hlr-system/-20/210/339/101/261/217/600015400431b0.jpeg"
+    },
+    "32": {
+      "index": 32,
+      "name": "The Picture of Dorian Gray",
+      "author": "Oscar Wilde",
+      "year": "1890",
+      "genre": "philosophical fiction",
+      "photo": "https://i.pinimg.com/736x/5f/e4/0e/5fe40e0c932a40dab7662e7494707c5e.jpg"
+    },
+    "33": {
+      "index": 33,
+      "name": "Eugene Onegin",
+      "author": "Alexander Pushkin",
+      "year": "1833",
+      "genre": "novel in verse",
+      "photo": "https://cdn1.ozone.ru/s3/multimedia-l/6389167905.jpg"
+    },
+    "34": {
+      "index": 34,
+      "name": "Rebecca",
+      "author": "Daphne du Maurier",
+      "year": "1938",
+      "genre": "gothic fiction",
+      "photo": "https://cdn1.ozone.ru/s3/multimedia-1-7/6969559219.jpg"
+    },
+    "35": {
+      "index": 35,
+      "name": "Brave New World",
+      "author": "Aldous Huxley",
+      "year": "1932",
+      "genre": "dystopian",
+      "photo": "https://static.wikia.nocookie.net/brave_new_world/images/7/74/Brave_New_World_novel.jpg/revision/latest?cb=20200701215917"
+    },
+    "36": {
+      "index": 36,
+      "name": "An American Tragedy",
+      "author": "Theodore Dreiser",
+      "year": "1925",
+      "genre": "novel",
+      "photo": "https://avatars.mds.yandex.net/i?id=abfa3fee479c0f61b6d5ce78db7cbdb8_l-9223904-images-thumbs&n=13"
+    },
+    "37": {
+      "index": 37,
+      "name": "The Thorn Birds",
+      "author": "Colleen McCullough",
+      "year": "1977",
+      "genre": "romance",
+      "photo": "https://sun9-50.userapi.com/impf/c623825/v623825589/53a4b/oEsauNs8cPs.jpg?size=393x604&quality=96&sign=c993eda52beef8c1940d3346f4708a57&type=album"
+    },
+    "38": {
+      "index": 38,
+      "name": "Jane Eyre",
+      "author": "Charlotte Brontë",
+      "year": "1847",
+      "genre": "gothic fiction",
+      "photo": "https://sun9-83.userapi.com/impf/c633317/v633317352/17d81/Kr-qBz7Iz0k.jpg?size=394x604&quality=96&sign=32f948d7a5183fd338e1734111b1b79b&type=album"
+    },
+    "39": {
+      "index": 39,
+      "name": "Wuthering Heights",
+      "author": "Emily Brontë",
+      "year": "1847",
+      "genre": "gothic fiction",
+      "photo": "https://i.pinimg.com/736x/db/69/84/db6984a7f340a25da23415ce2e2c5356.jpg"
+    },
+    "40": {
+      "index": 40,
+      "name": "Moby Dick",
+      "author": "Herman Melville",
+      "year": "1851",
+      "genre": "adventure fiction",
+      "photo": "https://i.pinimg.com/originals/f6/70/16/f67016346d7e2e8dbd59f70d88f39a0c.jpg"
+    },
+    "41": {
+      "index": 41,
+      "name": "Treasure Island",
+      "author": "Robert Louis Stevenson",
+      "year": "1883",
+      "genre": "adventure fiction"
+    },
+    "42": {
+      "index": 42,
+      "name": "Dracula",
+      "author": "Bram Stoker",
+      "year": "1897",
+      "genre": "gothic fiction"
+    },
+    "43": {
+      "index": 43,
+      "name": "Frankenstein",
+      "author": "Mary Shelley",
+      "year": "1818",
+      "genre": "gothic fiction"
+    },
+    "44": {
+      "index": 44,
+      "name": "Hamlet",
+      "author": "William Shakespeare",
+      "year": "1603",
+      "genre": "tragedy"
+    },
+    "45": {
+      "index": 45,
+      "name": "Macbeth",
+      "author": "William Shakespeare",
+      "year": "1623",
+      "genre": "tragedy"
+    },
+    "46": {
+      "index": 46,
+      "name": "Romeo and Juliet",
+      "author": "William Shakespeare",
+      "year": "1597",
+      "genre": "tragedy"
+    },
+    "47": {
+      "index": 47,
+      "name": "Othello",
+      "author": "William Shakespeare",
+      "year": "1603",
+      "genre": "tragedy"
+    },
+    "48": {
+      "index": 48,
+      "name": "Don Quixote",
+      "author": "Miguel de Cervantes",
+      "year": "1605",
+      "genre": "novel"
+    },
+    "49": {
+      "index": 49,
+      "name": "The Decameron",
+      "author": "Giovanni Boccaccio",
+      "year": "1353",
+      "genre": "short story collection"
+    },
+    "50": {
+      "index": 50,
+      "name": "The Divine Comedy",
+      "author": "Dante Alighieri",
+      "year": "1320",
+      "genre": "epic poem"
+    },
+    "51": {
+      "index": 51,
+      "name": "Faust",
+      "author": "Johann Wolfgang von Goethe",
+      "year": "1808",
+      "genre": "tragedy"
+    },
+    "52": {
+      "index": 52,
+      "name": "The Canterbury Tales",
+      "author": "Geoffrey Chaucer",
+      "year": "1400",
+      "genre": "poetry"
+    },
+    "53": {
+      "index": 53,
+      "name": "The Iliad",
+      "author": "Homer",
+      "year": "800 BC",
+      "genre": "epic poem"
+    },
+    "54": {
+      "index": 54,
+      "name": "The Odyssey",
+      "author": "Homer",
+      "year": "800 BC",
+      "genre": "epic poem"
+    },
+    "55": {
+      "index": 55,
+      "name": "A Tale of Two Cities",
+      "author": "Charles Dickens",
+      "year": "1859",
+      "genre": "historical novel"
+    },
+    "56": {
+      "index": 56,
+      "name": "The Count of Monte Cristo",
+      "author": "Alexandre Dumas",
+      "year": "1844",
+      "genre": "adventure fiction"
+    },
+    "57": {
+      "index": 57,
+      "name": "The Three Musketeers",
+      "author": "Alexandre Dumas",
+      "year": "1844",
+      "genre": "historical novel"
+    },
+    "58": {
+      "index": 58,
+      "name": "Twenty Thousand Leagues Under the Sea",
+      "author": "Jules Verne",
+      "year": "1870",
+      "genre": "science fiction"
+    },
+    "59": {
+      "index": 59,
+      "name": "Around the World in 80 Days",
+      "author": "Jules Verne",
+      "year": "1873",
+      "genre": "adventure fiction"
+    },
+    "60": {
+      "index": 60,
+      "name": "The Adventures of Sherlock Holmes",
+      "author": "Arthur Conan Doyle",
+      "year": "1892",
+      "genre": "mystery"
+    },
+    "61": {
+      "index": 61,
+      "name": "The Hound of the Baskervilles",
+      "author": "Arthur Conan Doyle",
+      "year": "1902",
+      "genre": "mystery"
+    },
+    "62": {
+      "index": 62,
+      "name": "The Adventures of Tom Sawyer",
+      "author": "Mark Twain",
+      "year": "1876",
+      "genre": "adventure fiction"
+    },
+    "63": {
+      "index": 63,
+      "name": "The Adventures of Huckleberry Finn",
+      "author": "Mark Twain",
+      "year": "1884",
+      "genre": "adventure fiction"
+    },
+    "64": {
+      "index": 64,
+      "name": "Winnie the Pooh",
+      "author": "A.A. Milne",
+      "year": "1926",
+      "genre": "children's literature"
+    },
+    "65": {
+      "index": 65,
+      "name": "Alice in Wonderland Through the Looking Glass",
+      "author": "Lewis Carroll",
+      "year": "1871",
+      "genre": "fantasy"
+    },
+    "66": {
+      "index": 66,
+      "name": "The Hobbit",
+      "author": "J.R.R. Tolkien",
+      "year": "1937",
+      "genre": "fantasy"
+    },
+    "67": {
+      "index": 67,
+      "name": "The Silmarillion",
+      "author": "J.R.R. Tolkien",
+      "year": "1977",
+      "genre": "fantasy"
+    },
+    "68": {
+      "index": 68,
+      "name": "Perfume",
+      "author": "Patrick Süskind",
+      "year": "1985",
+      "genre": "historical fiction"
+    },
+    "69": {
+      "index": 69,
+      "name": "The Da Vinci Code",
+      "author": "Dan Brown",
+      "year": "2003",
+      "genre": "mystery"
+    },
+    "70": {
+      "index": 70,
+      "name": "Angels & Demons",
+      "author": "Dan Brown",
+      "year": "2000",
+      "genre": "mystery"
+    },
+    "71": {
+      "index": 71,
+      "name": "Inferno",
+      "author": "Dan Brown",
+      "year": "2013",
+      "genre": "mystery"
+    },
+    "72": {
+      "index": 72,
+      "name": "Game of Thrones",
+      "author": "George R.R. Martin",
+      "year": "1996",
+      "genre": "fantasy"
+    },
+    "73": {
+      "index": 73,
+      "name": "A Song of Ice and Fire",
+      "author": "George R.R. Martin",
+      "year": "1996",
+      "genre": "fantasy"
+    },
+    "74": {
+      "index": 74,
+      "name": "The Hunger Games",
+      "author": "Suzanne Collins",
+      "year": "2008",
+      "genre": "dystopian"
+    },
+    "75": {
+      "index": 75,
+      "name": "Destiny",
+      "author": "Sally Beauman",
+      "year": "1987",
+      "genre": "romance"
+    },
+    "76": {
+      "index": 76,
+      "name": "Metro 2033",
+      "author": "Dmitry Glukhovsky",
+      "year": "2005",
+      "genre": "science fiction"
+    },
+    "77": {
+      "index": 77,
+      "name": "Metro 2034",
+      "author": "Dmitry Glukhovsky",
+      "year": "2009",
+      "genre": "science fiction"
+    },
+    "78": {
+      "index": 78,
+      "name": "Metro 2035",
+      "author": "Dmitry Glukhovsky",
+      "year": "2015",
+      "genre": "science fiction"
+    },
+    "79": {
+      "index": 79,
+      "name": "Night Watch",
+      "author": "Sergei Lukyanenko",
+      "year": "1998",
+      "genre": "fantasy"
+    },
+    "80": {
+      "index": 80,
+      "name": "Day Watch",
+      "author": "Sergei Lukyanenko",
+      "year": "2000",
+      "genre": "fantasy"
+    },
+    "81": {
+      "index": 81,
+      "name": "Twilight",
+      "author": "Stephenie Meyer",
+      "year": "2005",
+      "genre": "romance"
+    },
+    "82": {
+      "index": 82,
+      "name": "New Moon",
+      "author": "Stephenie Meyer",
+      "year": "2006",
+      "genre": "romance"
+    },
+    "83": {
+      "index": 83,
+      "name": "Eclipse",
+      "author": "Stephenie Meyer",
+      "year": "2007",
+      "genre": "romance"
+    },
+    "84": {
+      "index": 84,
+      "name": "Breaking Dawn",
+      "author": "Stephenie Meyer",
+      "year": "2008",
+      "genre": "romance"
+    },
+    "85": {
+      "index": 85,
+      "name": "Harry Potter and the Chamber of Secrets",
+      "author": "J.K. Rowling",
+      "year": "1998",
+      "genre": "fantasy"
+    },
+    "86": {
+      "index": 86,
+      "name": "Harry Potter and the Prisoner of Azkaban",
+      "author": "J.K. Rowling",
+      "year": "1999",
+      "genre": "fantasy"
+    },
+    "87": {
+      "index": 87,
+      "name": "Harry Potter and the Goblet of Fire",
+      "author": "J.K. Rowling",
+      "year": "2000",
+      "genre": "fantasy"
+    },
+    "88": {
+      "index": 88,
+      "name": "Harry Potter and the Order of the Phoenix",
+      "author": "J.K. Rowling",
+      "year": "2003",
+      "genre": "fantasy"
+    },
+    "89": {
+      "index": 89,
+      "name": "Harry Potter and the Half-Blood Prince",
+      "author": "J.K. Rowling",
+      "year": "2005",
+      "genre": "fantasy"
+    },
+    "90": {
+      "index": 90,
+      "name": "Harry Potter and the Deathly Hallows",
+      "author": "J.K. Rowling",
+      "year": "2007",
+      "genre": "fantasy"
+    },
+    "91": {
+      "index": 91,
+      "name": "50 Shades of Grey",
+      "author": "E.L. James",
+      "year": "2011",
+      "genre": "romance"
+    },
+    "92": {
+      "index": 92,
+      "name": "The Grapes of Wrath",
+      "author": "John Steinbeck",
+      "year": "1939",
+      "genre": "realist fiction"
+    },
+    "93": {
+      "index": 93,
+      "name": "The Old Man and the Sea",
+      "author": "Ernest Hemingway",
+      "year": "1952",
+      "genre": "novel"
+    },
+    "94": {
+      "index": 94,
+      "name": "A Farewell to Arms!",
+      "author": "Ernest Hemingway",
+      "year": "1929",
+      "genre": "novel"
+    },
+    "95": {
+      "index": 95,
+      "name": "For Whom the Bell Tolls",
+      "author": "Ernest Hemingway",
+      "year": "1940",
+      "genre": "novel"
+    },
+    "96": {
+      "index": 96,
+      "name": "On the Western Front Without changes",
+      "author": "Erich Maria Remarque",
+      "year": "1929",
+      "genre": "novel"
+    },
+    "97": {
+      "index": 97,
+      "name": "Three Men in a Boat",
+      "author": "Jerome K. Jerome",
+      "year": "1889",
+      "genre": "humor"
+    },
+    "98": {
+      "index": 98,
+      "name": "The Call of Cthulhu",
+      "author": "H.P. Lovecraft",
+      "year": "1928",
+      "genre": "horror"
+    },
+    "99": {
+      "index": 99,
+      "name": "The Shadow Over Innsmouth",
+      "author": "H.P. Lovecraft",
+      "year": "1936",
+      "genre": "horror"
+    },
+    "100": {
+      "index": 100,
+      "name": "Animal Farm",
+      "author": "George Orwell",
+      "year": "1945",
+      "genre": "allegory"
+    },
+    "101": {
+      "index": 101,
+      "name": "Lord of the Flies",
+      "author": "William Golding",
+      "year": "1954",
+      "genre": "allegory"
+    },
+    "102": {
+      "index": 102,
+      "name": "Through the Looking Glass",
+      "author": "Lewis Carroll",
+      "year": "1871",
+      "genre": "fantasy"
+    },
+    "103": {
+      "index": 103,
+      "name": "The Alchemist",
+      "author": "Paulo Coelho",
+      "year": "1988",
+      "genre": "novel"
+    },
+    "104": {
+      "index": 104,
+      "name": "11 Minutes",
+      "author": "Paulo Coelho",
+      "year": "2003",
+      "genre": "novel"
+    },
+    "105": {
+      "index": 105,
+      "name": "Veronica Decides to Die",
+      "author": "Paulo Coelho",
+      "year": "1998",
+      "genre": "novel"
+    },
+    "106": {
+      "index": 106,
+      "name": "The Notebook",
+      "author": "Nicholas Sparks",
+      "year": "1996",
+      "genre": "romance"
+    },
+    "107": {
+      "index": 107,
+      "name": "The Lovely Bones",
+      "author": "Alice Sebold",
+      "year": "2002",
+      "genre": "novel"
+    },
+    "108": {
+      "index": 108,
+      "name": "The Girl with the Dragon Tattoo",
+      "author": "Stieg Larsson",
+      "year": "2005",
+      "genre": "mystery"
+    },
+    "109": {
+      "index": 109,
+      "name": "The Girl Who Kicked the Cannon Balls",
+      "author": "Stieg Larsson",
+      "year": "2007",
+      "genre": "mystery"
+    }
+  }
+}
